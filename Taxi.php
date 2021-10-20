@@ -12,7 +12,7 @@ class Taxi extends Car
 
     public function lower($a)
     {
-        $a . "\n";
+        $a ;
             if ($this->passenger = $this->passenger - $a >=0) {
                 echo $a . "人降車しました\n";
             } else { echo $a . "人は降車できません\n"; }
