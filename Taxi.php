@@ -14,7 +14,7 @@ class Taxi extends Car
     {
         $this->passenger -= $passenger;
             if ($this->passenger >=0) {
-                return $passenger . "人降車しました\n";
+                return strval($passenger) . "人降車しました\n";
             } else { return strval($passenger) . "人は降車できません\n"; }
     }
 
