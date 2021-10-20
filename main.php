@@ -1,6 +1,7 @@
 <?php
-require_once __DIR__ . '/Taxi.php';
 require_once __DIR__ . '/Car.php';
+require_once __DIR__ . '/Taxi.php';
+
 // Taxiクラスのインスタンスを生成
 $taxi1 = new Taxi('クラウンのタクシー', 222, 'black');
 
