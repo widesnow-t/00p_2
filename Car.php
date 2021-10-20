@@ -2,9 +2,9 @@
 
 class Car
 {
-    private $name;
-    private $number;
-    private $color;
+    protected $name;
+    protected $number;
+    protected $color;
 
     public function __construct($name, $number, $color)
     {
